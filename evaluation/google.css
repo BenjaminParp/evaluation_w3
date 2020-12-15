@@ -80,8 +80,9 @@ button:active{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-top: 12px;
+    padding-top: 14px;
     padding-left: 10px;
+    color: rgb(189, 189, 189);
 }
 
 #block > input{
