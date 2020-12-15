@@ -1,0 +1,125 @@
+#logo_hautDroite{
+    height: 102px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo_hautDroite > a{
+    margin-right: 25px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a, a:hover, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#logo_hautDroite > i{
+    margin-top: 24px;
+    margin-right: 25px;
+}
+
+#logo_hautDroite > button{
+    margin-top: 17px;
+    height: 28px;
+    margin-right: 10px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(11, 127, 236);
+    border-radius: 5%;
+    border: rgb(11, 127, 236);
+    color: white;
+    text-decoration: none;
+}
+
+button:active{
+    outline-style:none;
+}
+
+#mileuDePage{
+    display: flex;
+    justify-content: center;
+}
+
+#mileuDePage > input{
+    height: 30px;
+    width: 370px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#MileuDePage2 {
+    display: flex;
+    justify-content: center;
+}
+
+#MilieuDEPage2 > input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block{
+    margin-top: 25px;
+    height:45px;
+    border:0.1px solid lightgrey;
+    width:580px;
+    font-size: medium;
+    outline: none;
+    border-radius: 30px;    
+}
+
+#block > i{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+#block > input{
+    margin-top: -20px;
+    margin-left: 30px;
+    width: 464px;
+    height: 30px;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    display: flex;
+    justify-content: cneter;
+    outline: none;
+}
+
+#BasDePage{
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+#DoubleBouton{
+    display: flex;
+    justify-content: center;
+    margin-top: 38px;
+   
+}
+#RechercheG, #Luck{
+  background-color: rgb(240, 239, 239);
+  border: none;
+  height: 30px;
+}
+
+#transparent{
+    height: 380px;
+    width: auto;
+}
+
+footer{
+    background-color: lightgrey;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+}
