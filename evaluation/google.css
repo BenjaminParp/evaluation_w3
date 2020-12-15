@@ -22,8 +22,8 @@ a,a:hover{
 }
 
 #logo_hautDroite > i{
-    margin-top: 24px;
-    margin-right: 25px;
+    padding-top: 24px;
+    padding-right: 25px;
 }
 
 #logo_hautDroite > button{
@@ -80,8 +80,8 @@ button:active{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-top: 12px;
-    margin-left: 10px;
+    padding-top: 12px;
+    padding-left: 10px;
 }
 
 #block > input{
@@ -92,7 +92,7 @@ button:active{
     font-size: medium;
     border: none;
     display: flex;
-    justify-content: cneter;
+    justify-content: center;
     outline: none;
 }
 
@@ -100,7 +100,7 @@ button:active{
 #DoubleBouton{
     display: flex;
     justify-content: center;
-    margin-top: 38px;
+    padding-top: 38px;
    
 }
 #RechercheG, #Luck{
@@ -137,11 +137,11 @@ footer{
 }
 
 #BasGauche > div{
-    margin: 10px;
+    padding: 10px;
 }
 
 #BasDroite > div{
-    margin: 10px;
+    padding: 10px;
 }
 
 #BoutonFrance{
