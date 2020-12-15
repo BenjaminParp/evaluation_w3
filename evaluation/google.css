@@ -1,3 +1,9 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
 #logo_hautDroite{
     height: 102px;
     display: flex;
@@ -5,13 +11,12 @@
 }
 
 #logo_hautDroite > a{
-    margin-right: 25px;
-    margin-top: 20px;
+    padding-right: 25px;
+    padding-top: 20px;
     font-size: 15px;
-    font-family: 'Poppins', sans-serif;
 }
 
-a, a:hover, a:visited, a:active {
+a,a:hover{
     color: black;
     text-decoration: none;
 }
@@ -26,7 +31,6 @@ a, a:hover, a:visited, a:active {
     height: 28px;
     margin-right: 10px;
     font-size: medium;
-    font-family: 'Poppins', sans-serif;
     background-color: rgb(11, 127, 236);
     border-radius: 5%;
     border: rgb(11, 127, 236);
@@ -86,18 +90,12 @@ button:active{
     width: 464px;
     height: 30px;
     font-size: medium;
-    font-family: 'Poppins', sans-serif;
     border: none;
     display: flex;
     justify-content: cneter;
     outline: none;
 }
 
-#BasDePage{
-    display: flex;
-    flex-direction: row;
-    align-content: flex-end;
-}
 
 #DoubleBouton{
     display: flex;
@@ -109,17 +107,44 @@ button:active{
   background-color: rgb(240, 239, 239);
   border: none;
   height: 30px;
+  outline-color:  rgb(11, 127, 236);
 }
 
 #transparent{
-    height: 380px;
+    height: 475px;
     width: auto;
 }
 
 footer{
-    background-color: lightgrey;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+    background-color: rgb(238, 238, 238);
+    height: 72px;
+}
 
+#Bas{
+    display: flex;
+    justify-content: space-between;
+}
+
+#BasDroite{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+#BasGauche{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#BasGauche > div{
+    margin: 10px;
+}
+
+#BasDroite > div{
+    margin: 10px;
+}
+
+#BoutonFrance{
+    padding-left: 10px;
+    border: solid 1px lightgrey;
 }
